@@ -1,0 +1,51 @@
+body {
+
+    .header {
+
+        height: 10em;
+        padding: 10em;
+        background-size: contain;
+        background-image: url("../img/logosss.webp");
+        background-repeat: initial;
+        background-position: center;
+
+    }
+    .titulo{
+        color: rgb(231, 231, 231);
+        text-align:center;
+        background-color: black;
+
+    }
+
+    h1 {
+        text-align: center;
+        color: gray;
+        font-size: 40px;
+    }
+
+    .productos {
+        justify-self: center;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .productos img {
+
+        height: 300px;
+        max-width: 300px;
+        margin-top: 20px;
+    }
+
+    .texto_producto {
+
+        display: inline-block;
+        text-align: justify;
+        position: absolute;
+        margin: 120px;
+    }
+
+    .footer {
+        text-align: center;
+
+    }
+}
